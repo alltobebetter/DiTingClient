@@ -246,7 +246,7 @@ const App = () => {
       });
       return changed ? nextRaw : prev;
     });
-  }, [globalOnlineMap, isStoreLoaded]);
+  }, [globalOnlineMap, isStoreLoaded, devices.length]);
 
   // UI与窗口伸缩管理引擎
   const { 
